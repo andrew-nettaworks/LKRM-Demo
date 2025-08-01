@@ -10,7 +10,7 @@ import Upload from './components/upload'
 import Review from './components/review'
 import DownloadIcon from '@/components/icon/document-arrow-down.svg'
 import UploadPreferenceModal from './components/upload-preference-modal'
-import { downloadURI } from '@/utils/app'
+import { downloadURI } from '../../../../utils/app'
 
 function NewPlayer() {
   const [loading, setLoading] = useState(false)
